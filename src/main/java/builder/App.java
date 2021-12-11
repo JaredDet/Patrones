@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
 
         var computador = ServicioComputador
-                .comprarComputador("AMD");
+                .comprarComputador("INTEL");
         System.out.println(computador);
     }
 }
