@@ -1,14 +1,14 @@
-package builderv2.modelo;
+package builderv2.modelo.computador;
 
-public class ConstructorComputador extends ConstructorAbstractoComputador{
+public class ConstructorComputador extends ConstructorAbstractoComputador {
 
     private final Computador computador;
 
-    private ConstructorComputador(){
+    private ConstructorComputador() {
         computador = new Computador();
     }
 
-    public static ConstructorComputador computador(){
+    public static ConstructorComputador computador() {
         return new ConstructorComputador();
     }
 

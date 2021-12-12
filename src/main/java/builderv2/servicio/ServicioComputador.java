@@ -1,7 +1,7 @@
 package builderv2.servicio;
 
-import builderv2.modelo.Computador;
-import builderv2.modelo.ConstructorComputador;
+import builderv2.modelo.computador.Computador;
+import builderv2.modelo.computador.ConstructorComputador;
 
 public class ServicioComputador {
 
@@ -21,3 +21,4 @@ public class ServicioComputador {
         System.out.println(computador);
     }
 }
+

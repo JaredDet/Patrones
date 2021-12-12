@@ -1,11 +1,10 @@
-package builderv2.modelo;
+package builderv2.modelo.computador;
 
 public class Computador {
 
     private String marca;
     private String procesador;
     private int ram;
-
 
     public void setMarca(String marca) {
         this.marca = marca;
